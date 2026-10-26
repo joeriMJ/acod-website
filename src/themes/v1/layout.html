@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{desc}}">
+  {{robots}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/favicon.png" type="image/png" sizes="256x256">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body>
+  <a class="skip" href="#inhoud">Naar de inhoud</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="{{name}}, naar de startpagina" width="422" height="185">
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="hoofdmenu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav id="hoofdmenu" class="main-nav" aria-label="Hoofdmenu">
+        <ul>
+          {{nav}}
+        </ul>
+        <a class="btn btn-red nav-cta" href="lid-worden.html">Word lid</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhoud">
+{{content}}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/img/logo-wit.png" alt="{{name}}" width="422" height="185" loading="lazy">
+        <p>De vakbond voor het personeel van Proximus, skeyes, Brussels Airport Company en het BIPT. Onderdeel van ACOD en ABVV.</p>
+      </div>
+      <address>
+        <span class="todo">{{street}}</span><br>
+        <span class="todo">{{city}}</span><br>
+        <a class="todo" href="mailto:{{email}}">{{email}}</a>
+      </address>
+      <ul class="footer-links">
+        <li><a href="lid-worden.html">Word lid</a></li>
+        <li><a href="hulp.html">Stakingsvergoeding en syndicale premie</a></li>
+        <li><a href="contact.html">Jouw secretariaat</a></li>
+        <li><a href="hulp.html#privacy">Privacy</a></li>
+        {{facebook}}
+      </ul>
+    </div>
+  </footer>
+  <script src="assets/site.js"></script>
+</body>
+</html>

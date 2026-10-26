@@ -1,0 +1,58 @@
+<!-- title: Contact | desc: De gewestelijke secretariaten van ACOD Telecom-Vliegwezen en een contactformulier. -->
+    <header class="page-head">
+      <div class="wrap">
+        <h1>Contact</h1>
+        <p class="lede">Bel of mail het secretariaat van de regio waar je werkt. Zij brengen je bij de juiste persoon.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Secretariaten</h2>
+        <ul class="regions">
+          <li><h3>Antwerpen</h3><p><span class="todo">[naam secretaris]</span><br><span class="todo">[gsm]</span><br><span class="todo">[e-mail]</span></p></li>
+          <li><h3>Limburg</h3><p><span class="todo">[naam secretaris]</span><br><span class="todo">[gsm]</span><br><span class="todo">[e-mail]</span></p></li>
+          <li><h3>Oost-Vlaanderen</h3><p><span class="todo">[naam secretaris]</span><br><span class="todo">[gsm]</span><br><span class="todo">[e-mail]</span></p></li>
+          <li><h3>West-Vlaanderen</h3><p><span class="todo">[naam secretaris]</span><br><span class="todo">[gsm]</span><br><span class="todo">[e-mail]</span></p></li>
+          <li><h3>Vlaams-Brabant</h3><p><span class="todo">[naam secretaris]</span><br><span class="todo">[gsm]</span><br><span class="todo">[e-mail]</span></p></li>
+          <li><h3>Brussel</h3><p><span class="todo">[naam secretaris]</span><br><span class="todo">[gsm]</span><br><span class="todo">[e-mail]</span></p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-sky">
+      <div class="wrap split">
+        <div class="prose">
+          <h2>Stuur ons een bericht</h2>
+          <p>Liever schrijven? Kies je regio, dan komt je bericht bij het juiste secretariaat terecht.</p>
+          <p>Wil je je gegevens wijzigen, je stakingsvergoeding aanvragen of je syndicale premie ontvangen? Kijk eerst even op <a href="hulp.html">hulp en tools</a>.</p>
+        </div>
+        <div class="form-panel">
+          <form class="form" data-form="contact" data-subject="Bericht via de website" data-to="{{email}}" data-done="Je bericht is verstuurd. We antwoorden zo snel mogelijk.">
+            <div class="row">
+              <div><label for="c-voornaam">Voornaam</label><input id="c-voornaam" name="Voornaam" autocomplete="given-name" required></div>
+              <div><label for="c-naam">Naam <span class="opt">(optioneel)</span></label><input id="c-naam" name="Naam" autocomplete="family-name"></div>
+            </div>
+            <div class="row">
+              <div><label for="c-mail">E-mail</label><input id="c-mail" name="E-mail" type="email" autocomplete="email" required></div>
+              <div><label for="c-gsm">Gsm <span class="opt">(optioneel)</span></label><input id="c-gsm" name="Gsm" type="tel" autocomplete="tel"></div>
+            </div>
+            <div>
+              <label for="c-regio">Regio waar je werkt</label>
+              <select id="c-regio" name="Regio" required>
+                <option value="">Kies je regio</option>
+                <option>Antwerpen</option>
+                <option>Limburg</option>
+                <option>Oost-Vlaanderen</option>
+                <option>West-Vlaanderen</option>
+                <option>Vlaams-Brabant</option>
+                <option>Brussel</option>
+              </select>
+            </div>
+            <div><label for="c-bericht">Je bericht</label><textarea id="c-bericht" name="Bericht" required></textarea></div>
+            <div><button class="btn btn-red" type="submit">Verstuur bericht</button></div>
+            <p class="form-status" role="status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>

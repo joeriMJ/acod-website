@@ -1,0 +1,88 @@
+<!-- title: Word lid | desc: Waarom je lid wordt van ACOD Telecom-Vliegwezen en hoe je je aansluit. -->
+    <header class="page-head">
+      <div class="wrap">
+        <h1>Word lid</h1>
+        <p class="lede">We werken voor het collectief en voor jou persoonlijk. Op het werk, aan de onderhandelingstafel en op de momenten dat het moeilijk wordt.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="prose">
+          <h2>Waarom aansluiten?</h2>
+          <p>We onderhandelen lokaal en nationaal over je loon, je sociale voordelen en je welzijn op het werk. Botst het met je werkgever, dan staan we aan jouw kant. En bij een evaluatie, een stage of een moeilijk gesprek komt je afgevaardigde mee.</p>
+
+          <h3>Wat je meteen krijgt</h3>
+          <ul>
+            <li>Een stakingsvergoeding als je meedoet aan een erkende actie.</li>
+            <li>Een jaarlijkse syndicale premie.</li>
+            <li>Toegang tot alle diensten van ACOD Telecom-Vliegwezen.</li>
+          </ul>
+
+          <h3>Juridische bijstand</h3>
+          <p>Onze juristen beantwoorden je vragen over arbeidscontracten, ontslag, arbeidsongevallen en geschillen, en adviseren je over de stappen die je kunt zetten.</p>
+
+          <h3>Gezondheid en veiligheid</h3>
+          <p>We maken risico's op het werk bespreekbaar en zorgen dat je weet welke rechten je hebt rond welzijn en veiligheid.</p>
+
+          <h3>Sociale begeleiding</h3>
+          <p>Zit je in de knoop, op het werk of daarbuiten? We luisteren en zoeken samen met jou een uitweg.</p>
+
+          <h3>Bij elke overgang</h3>
+          <p>Tijdelijke werkloosheid, ontslag, ontslag wegens medische overmacht of je pensioen: we begeleiden je door de aanvragen voor uitkeringen en vertellen je welke rechten en plichten je hebt.</p>
+
+          <h3>Opleidingen</h3>
+          <p>We bieden opleidingen aan om je vaardigheden te versterken en je verder te helpen in je loopbaan.</p>
+        </div>
+
+        <div class="form-panel" id="aansluiten">
+          <h2>Aansluiten</h2>
+          <p>Vul je gegevens in. Je secretariaat neemt daarna contact met je op om je aansluiting af te ronden.</p>
+          <form class="form" data-form="lid" data-subject="Nieuwe aansluiting via de website" data-to="{{email}}" data-done="Bedankt. Je secretariaat neemt snel contact met je op.">
+            <div class="row">
+              <div><label for="l-voornaam">Voornaam</label><input id="l-voornaam" name="Voornaam" autocomplete="given-name" required></div>
+              <div><label for="l-naam">Naam</label><input id="l-naam" name="Naam" autocomplete="family-name" required></div>
+            </div>
+            <div class="row">
+              <div><label for="l-mail">E-mail</label><input id="l-mail" name="E-mail" type="email" autocomplete="email" required></div>
+              <div><label for="l-gsm">Gsm</label><input id="l-gsm" name="Gsm" type="tel" autocomplete="tel" required></div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="l-werkgever">Werkgever</label>
+                <select id="l-werkgever" name="Werkgever" required>
+                  <option value="">Kies je werkgever</option>
+                  <option>Proximus</option>
+                  <option>skeyes</option>
+                  <option>Brussels Airport Company</option>
+                  <option>BIPT</option>
+                  <option>Andere</option>
+                </select>
+              </div>
+              <div>
+                <label for="l-regio">Regio waar je werkt</label>
+                <select id="l-regio" name="Regio" required>
+                  <option value="">Kies je regio</option>
+                  <option>Antwerpen</option>
+                  <option>Limburg</option>
+                  <option>Oost-Vlaanderen</option>
+                  <option>West-Vlaanderen</option>
+                  <option>Vlaams-Brabant</option>
+                  <option>Brussel</option>
+                </select>
+              </div>
+            </div>
+            <fieldset>
+              <legend>Statuut</legend>
+              <div class="choice">
+                <label><input type="radio" name="Statuut" value="Statutair" required> Statutair (vast benoemd)</label>
+                <label><input type="radio" name="Statuut" value="Contractueel"> Contractueel</label>
+              </div>
+            </fieldset>
+            <div><label for="l-vraag">Vraag of opmerking <span class="opt">(optioneel)</span></label><textarea id="l-vraag" name="Vraag"></textarea></div>
+            <div><button class="btn btn-red" type="submit">Verstuur mijn aansluiting</button></div>
+            <p class="form-status" role="status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
